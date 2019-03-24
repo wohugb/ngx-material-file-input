@@ -1,0 +1,58 @@
+site_name: material-file-input 文档
+site_description: material-file-input 文档
+site_author: Nosy
+
+copyright: '@2018 wxdocs.github.io'
+
+repo_name: material-file-input
+repo_url: https://github.com/material-file-input
+edit_uri: ""
+
+theme:
+  name: material
+
+  include_search_page: false
+  search_index_only: true
+
+  language: zh
+  feature:
+    tabs: true
+  palette:
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/images/favicon.png
+  logo:
+    icon: "\uE80C"
+  extra_css: [assets/stylesheets/extra.css]
+extra:
+  search:
+    language: 'jp'
+  social:
+    - type: globe
+      link: http://wohugb.github.io
+    - type: github-alt
+      link: https://github.com/wohugb
+    - type: twitter
+      link: https://twitter.com/wohugb
+    - type: linkedin
+      link: https://linkedin.com/in/wohugb
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      linenums: false
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+
+pages:
+  - 首页: index.md
+  # - 入门:
+  #   - 目录: starter-guide/index.md
+  - 演示: code-samples.md
